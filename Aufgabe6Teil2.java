@@ -35,11 +35,6 @@ public class Aufgabe6Teil2 extends Thread {
 			System.out.println("Thread: " + Thread.currentThread().getName() + " erhöht Daten: " + currentData);
 			sharedResource.setData(currentData);
 			System.out.println("Thread: " + Thread.currentThread().getName() + " schreibt Daten: " + currentData);
-//			try {
-//				Thread.sleep(1000);
-//			} catch (InterruptedException e) {
-//
-//			}
 		}
 	}
 }
