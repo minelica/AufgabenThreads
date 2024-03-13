@@ -74,7 +74,6 @@ public class Main {
 			for (int i = 0; i < numThreads; i++) {
 				Thread thread = new Aufgabe6Teil2(sharedResource);
 				thread.start();
-//			thread.join();
 				numArray[i] = thread;
 			}
 
