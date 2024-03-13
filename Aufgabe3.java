@@ -19,7 +19,6 @@ public class Aufgabe3 extends Thread {
 	@Override
 	public void run() {
 		for (int i = start; i <= end; i++) {
-//			System.out.println(Thread.currentThread().getName() + ": " + i);
 			System.out.println(i);
 		}
 		try {
